@@ -1,0 +1,69 @@
+:root{
+    --color-yellow : #FFC107;
+    --color-cyan : #17A2B8;
+    --color-grey: #343A40;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hero-container{
+    height: 50vh;
+    min-height: 500px;
+}
+
+.container-wrapper{
+    margin:50px auto 50px auto
+}
+
+.divider{
+    background: radial-gradient(circle,#ffffff, #878e97, #c3c4ca, #e1e1e4, #ffffff);
+}
+
+.bg-yellow{
+    background-color: var(--color-yellow);
+}
+
+.bg-cyan{
+    background-color: var(--color-cyan);
+}
+
+.bg-grey{
+    background-color: var(--color-grey);
+}
+
+.pill-badge{
+    background-color: rgba(0, 0, 0, 0.31);
+    border-radius: 15px;
+    width: max-content;
+    padding: 2px;
+}
+.card-wrapper{
+    max-width: 500px;
+}
+
+.bg-leaves{
+    top:0;
+    right:0;
+    z-index:-1;
+}
+
+.bg-decal{
+    top:40%;
+    left: -5%;
+    z-index: -1;
+}
+
+.bg-decal2{
+    position: absolute;
+    top:-20%;
+    right: 0;
+}
+
+.bg-decal3{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    z-index: -1;
+}
